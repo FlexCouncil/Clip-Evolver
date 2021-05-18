@@ -16,4 +16,4 @@ At the far right are octave range sliders, with “Lo Oct” representing the oc
 
 This is Version 1.0 so there may be a few bugs—it’s viable in the studio, but at this point I would say perform live at your own risk. Sometimes the algorithms don’t make any notes at all or get stuck on the same notes, but they usually recover after a cycle or two. If this happens for a long period, try adding some notes manually or increasing the temperature. If all else fails, click the “Restart” button at the bottom-right.
 
-Also, the device will work only when frozen. If you unfreeze the device, the reference to the Node script will break. However, I have also included an unfrozen version of the device ([**Clip-Evolver-Unfrozen.zip**](Clip-Evolver-Unfrozen.zip)) which you can play around with.
+Also, the device will work only when frozen. If you unfreeze the device, the reference to the Node script will break. However, I have also included an unfrozen version of the device ([**Clip-Evolver-Unfrozen.zip**](https://github.com/FlexCouncil/Clip-Evolver/blob/main/Clip-Evolver-Unrozen.zip)) which you can play around with.
