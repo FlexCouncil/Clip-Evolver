@@ -2,7 +2,7 @@
 
 Welcome to Clip Evolver! To install, drag the Clip-Evolver.amxd file into your Live set. To engage the device, click the “Power” button. The device will need about 20 seconds to retrieve the algorithms over the Internet—if it's still not active after about a minute, click the “Restart” button. Feel free to select “Power” at any time during the load-up period, but the clip will not start evolving until the algorithms have been retrieved.
 
-This device changes MIDI data, so make sure you’ve duplicated any valuable clips before engaging. Under the hood, two AI algorithms from Google Magenta (MusicRNN and MusicVAE) take the MIDI from the clip and continue it naturalistically. When the playhead reaches the end of the loop, that continuation MIDI replaces the original MIDI.
+This device changes MIDI data, so make sure you’ve duplicated any valuable clips before engaging. Under the hood, two AI algorithms from [Google Magenta](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://magenta.tensorflow.org/&ved=2ahUKEwiOusfS9aSHAxUlke4BHWziBrsQFnoECCIQAQ&usg=AOvVaw14yBV-FfD8PpbwzxThr_Bt). (MusicRNN and MusicVAE) take the MIDI from the clip and continue it naturalistically. When the playhead reaches the end of the loop, that continuation MIDI replaces the original MIDI.
 
 This process will repeat as long as (1) the transport is playing, (2) the clip is playing, (3) the “Power” checkbox is selected, and (4) the number in the “Clip Slot” field matches the scene number of the clip. If you want the process to affect any clip playing in the track, regardless of scene, select the “Follow” button. The maximum clip length is 4 bars—if your clip is longer than 4 bars, only the first 4 bars will be evolved.
 
